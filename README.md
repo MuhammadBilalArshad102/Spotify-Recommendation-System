@@ -2,40 +2,61 @@
 
 ## Description
 
-This project is a Spotify Recommendation System developed using Python and Machine Learning. It recommends songs based on the similarity between songs and their audio features.
+This project is a Spotify Recommendation System developed using Python and Machine Learning techniques. The system analyzes Spotify song data and uses different data processing and machine learning techniques to generate recommendations based on song features and similarities.
 
-The project uses a Spotify dataset containing information about songs and their features. The system processes the data and uses similarity techniques to find and recommend songs that are similar to a selected song.
+The project was developed and tested using a Jupyter Notebook.
 
 ## Features
 
-* Song-based recommendations
-* Similarity-based recommendation system
-* Data preprocessing and cleaning
-* Analysis of Spotify song features
-* Machine Learning-based recommendation approach
-* Interactive Jupyter Notebook
+* Spotify song data analysis
+* Data cleaning and preprocessing
+* Feature scaling and transformation
+* Song similarity analysis
+* TF-IDF feature extraction
+* Dimensionality reduction using PCA
+* Clustering using K-Means
+* Nearest Neighbors for similarity-based recommendations
+* Machine learning model evaluation
+* Data visualization
 
 ## Technologies Used
 
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Jupyter Notebook
-* Matplotlib
-* Seaborn
+* **Python**
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **Seaborn**
+* **Scikit-learn**
+* **TensorFlow / Keras**
+* **Jupyter Notebook**
+
+## Machine Learning Techniques
+
+The project includes several machine learning and data analysis techniques, including:
+
+* Min-Max Scaling
+* Standard Scaling
+* One-Hot Encoding
+* TF-IDF Vectorization
+* PCA
+* K-Means Clustering
+* Nearest Neighbors
+* Decision Tree Classification
+* Linear Regression
+* Ridge Regression
+* Neural Networks
 
 ## Dataset
 
-The project uses a Spotify dataset containing song information and audio features. The dataset is used to analyze songs and calculate similarities for generating recommendations.
+The project uses a Spotify dataset containing information about songs and their features. The dataset is processed and analyzed to identify patterns and similarities between songs.
 
 ## How to Run
 
 1. Clone the repository.
 2. Open the project folder.
-3. Create and activate a Python virtual environment.
-4. Install the required Python libraries.
-5. Open the Jupyter Notebook.
+3. Create a Python virtual environment.
+4. Install the required dependencies.
+5. Open `Project_Spotify_Recommendation_system.ipynb`.
 6. Run the notebook cells in order.
 
 ## Project Structure
@@ -51,14 +72,16 @@ Spotify-Recommendation-System/
 
 ## Future Improvements
 
-* Add a web-based user interface
+* Develop a web interface for the recommendation system
 * Improve recommendation accuracy
-* Allow users to select songs through a search interface
-* Add more Spotify data
-* Deploy the recommendation system online
+* Add a song search feature
+* Allow users to select their favorite songs and receive recommendations
+* Use a larger and more diverse dataset
+* Deploy the system as a web application
 
 ## Author
 
-Muhammad Bilal Arshad
+**Muhammad Bilal Arshad**
+
 BS Software Engineering
 COMSATS University Islamabad, Lahore Campus
